@@ -1,0 +1,42 @@
+.userLogin {
+  width: 50%;
+  margin: 90px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  text-align: center;
+  background-color: steelblue;
+}
+
+.userLogin input{
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 1px solid black;
+  outline: none;
+  font: inherit;
+  
+}
+
+.userLogin button {
+  margin: 20px 0;
+  padding: 12px;
+  font: inherit;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.userLogin button:hover,
+.userLogin button:active {
+  color: white;
+  background-color: #fa923f;
+}
+
+.container{
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+ 
+}
